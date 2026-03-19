@@ -906,8 +906,8 @@ function buildTheme(mode: 'light' | 'dark') {
         defaultProps: { arrow: true },
         styleOverrides: {
           tooltip: {
-            fontFamily:    fontFamily.sans,
             ...typeStyles.caption,
+            fontFamily:    fontFamily.sans,
             backgroundColor: mode === 'light' ? base.grey[900] : base.grey[100],
             color:           mode === 'light' ? base.grey[50]  : base.grey[900],
             borderRadius:    radius.small,
@@ -921,8 +921,8 @@ function buildTheme(mode: 'light' | 'dark') {
       MuiChip: {
         styleOverrides: {
           root: {
-            fontFamily:    fontFamily.sans,
             ...typeStyles.caption,
+            fontFamily:    fontFamily.sans,
             fontWeight:    fontWeight.semibold,
             backgroundColor: t.background.mid,
             color:           t.text.primary,
@@ -1095,8 +1095,8 @@ function buildTheme(mode: 'light' | 'dark') {
       MuiAvatar: {
         styleOverrides: {
           root: {
-            fontFamily:  fontFamily.sans,
             ...typeStyles.body,
+            fontFamily:  fontFamily.sans,
             fontWeight:  fontWeight.semibold,
             backgroundColor: t.background.high,
             color:           t.text.secondary,

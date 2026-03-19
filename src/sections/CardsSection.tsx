@@ -83,7 +83,7 @@ export default function CardsSection() {
                 <Avatar sx={{ width: 24, height: 24, fontSize: 10 }}>JD</Avatar>
                 <Typography variant="caption" color="text.secondary">John Doe</Typography>
               </Box>
-              <Typography variant="heading3" sx={{ display: 'block', mb: 0.5 }}>
+              <Typography variant="h6" sx={{ display: 'block', mb: 0.5 }}>
                 Midnight City (Remix)
               </Typography>
               <Typography variant="caption" color="text.secondary">

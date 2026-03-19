@@ -78,7 +78,7 @@ export default function App({ mode, onToggleMode }: Props) {
               <Typography sx={{ fontSize: 14, color: '#fff', lineHeight: 1 }}>◉</Typography>
             </Box>
             <Box>
-              <Typography variant="heading4" sx={{ color: 'text.primary', display: 'block' }}>
+              <Typography variant="subtitle2" sx={{ color: 'text.primary', display: 'block', fontWeight: 600 }}>
                 SoundCloud
               </Typography>
               <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', letterSpacing: '0.08em', textTransform: 'uppercase', fontSize: 9 }}>
